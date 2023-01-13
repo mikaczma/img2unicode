@@ -20,7 +20,6 @@ setup(name='img2unicode',
     install_requires=[
         'numpy',
         'pandas',
-        'scikit-image',
         'pillow',
         'sklearn', # For ExactGammaRenderer
         'click', # UI
@@ -45,5 +44,5 @@ setup(name='img2unicode',
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires='>=2.7',
     zip_safe=False)
